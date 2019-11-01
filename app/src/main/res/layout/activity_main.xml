@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chetu.felixpat.pocketcodeapp.MainActivity"
+    android:background="#fcfcfc"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/colAppSingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/material"
+            app:contentScrim="@color/colorAccent"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="PocketCode">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/appToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="10dp"
+      android:background="#fcfcfc"
+      android:gravity="center"
+      android:id="@+id/activity_main_mainLayout"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          >
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/main_activity_c_cardview"
+              android:layout_width="100dp"
+              android:layout_height="120dp"
+              android:layout_margin="10dp"
+              app:cardElevation="10dp"
+              app:cardCornerRadius="25dp"
+
+              >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <ImageView
+
+                      android:id="@+id/main_activity_c"
+                      android:layout_width="75dp"
+                      android:layout_height="75dp"
+
+
+                      />
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              android:layout_width="100dp"
+              android:id="@+id/main_activity_cplus_cardview"
+              android:layout_height="120dp"
+              android:layout_margin="10dp"
+              app:cardElevation="20dp"
+              app:cardCornerRadius="25dp"
+              >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/main_activity_cpp"
+                      android:layout_width="75dp"
+                      android:layout_height="75dp"
+
+                      />
+
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/main_activity_java_cardview"
+              android:layout_width="100dp"
+              android:layout_height="120dp"
+              android:layout_margin="10dp"
+              app:cardElevation="10dp"
+              app:cardCornerRadius="25dp">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/main_activity_java"
+                      android:layout_width="75dp"
+                      android:layout_height="75dp"
+
+                      />
+
+
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/main_activity_python_cardview"
+              android:layout_width="100dp"
+              android:layout_height="120dp"
+              android:layout_margin="10dp"
+              app:cardElevation="10dp"
+              app:cardCornerRadius="25dp">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/main_activity_python"
+                      android:layout_width="75dp"
+                      android:layout_height="75dp"
+                      />
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/main_activity_html_cardview"
+              android:layout_width="100dp"
+              android:layout_height="120dp"
+              android:layout_margin="10dp"
+              app:cardElevation="10dp"
+              app:cardCornerRadius="25dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/main_activity_html"
+                      android:layout_width="75dp"
+                      android:layout_height="75dp"
+
+                      />
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+          <android.support.v7.widget.CardView
+              android:id="@+id/main_activity_others_cardview"
+              android:layout_width="100dp"
+              android:layout_height="120dp"
+              android:layout_margin="10dp"
+              app:cardElevation="10dp"
+              app:cardCornerRadius="25dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/main_activity_others"
+                      android:layout_width="75dp"
+                      android:layout_height="75dp"
+
+                      />
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+      </LinearLayout>
+
+  </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
+
+

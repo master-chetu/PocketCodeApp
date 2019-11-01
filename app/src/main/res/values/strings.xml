@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">PocketCodeApp</string>
+    <string-array name="c_tutorials">
+        <item>"c Tuto 1"</item>
+        <item>"c Tuto 2"</item>
+        <item>"c Tuto 3"</item>
+        <item>"c Tuto 4"</item>
+        <item>"c Tuto 5"</item>
+        <item>"c Tuto 6"</item>
+    </string-array>
+    <string-array name="c_editors">
+        <item>"c Edit 1"</item>
+        <item>"c Edit 2"</item>
+        <item>"c Edit 3"</item>
+        <item>"c Edit 4"</item>
+        <item>"c Edit 5"</item>
+        <item>"c Edit 6"</item>
+    </string-array>
+    <string-array name="c_tech_news">
+        <item>"c News 1"</item>
+        <item>"c News 2"</item>
+        <item>"c News 3"</item>
+        <item>"c News 4"</item>
+        <item>"c News 5"</item>
+        <item>"c News 6"</item>
+    </string-array>
+
+    <string-array name="cpp_tutorials">
+        <item>"cpp Tuto 1"</item>
+        <item>"cpp Tuto 2"</item>
+        <item>"cpp Tuto 3"</item>
+        <item>"cpp Tuto 4"</item>
+        <item>"cpp Tuto 5"</item>
+        <item>"cpp Tuto 6"</item>
+    </string-array>
+    <string-array name="cpp_editors">
+        <item>"cpp Edit 1"</item>
+        <item>"cpp Edit 2"</item>
+        <item>"cpp Edit 3"</item>
+        <item>"cpp Edit 4"</item>
+        <item>"cpp Edit 5"</item>
+        <item>"cpp Edit 6"</item>
+    </string-array>
+    <string-array name="cpp_tech_news">
+        <item>"cpp News 1"</item>
+        <item>"cpp News 2"</item>
+        <item>"cpp News 3"</item>
+        <item>"cpp News 4"</item>
+        <item>"cpp News 5"</item>
+        <item>"cpp News 6"</item>
+    </string-array>
+
+    <string-array name="java_tutorials">
+        <item>"java Tuto 1"</item>
+        <item>"java Tuto 2"</item>
+        <item>"java Tuto 3"</item>
+        <item>"java Tuto 4"</item>
+        <item>"java Tuto 5"</item>
+        <item>"java Tuto 6"</item>
+    </string-array>
+    <string-array name="java_editors">
+        <item>"java Edit 1"</item>
+        <item>"java Edit 2"</item>
+        <item>"java Edit 3"</item>
+        <item>"java Edit 4"</item>
+        <item>"java Edit 5"</item>
+        <item>"java Edit 6"</item>
+    </string-array>
+    <string-array name="java_tech_news">
+        <item>"java News 1"</item>
+        <item>"java News 2"</item>
+        <item>"java News 3"</item>
+        <item>"java News 4"</item>
+        <item>"java News 5"</item>
+        <item>"java News 6"</item>
+    </string-array>
+
+    <string-array name="python_tutorials">
+        <item>"c Tuto 1"</item>
+        <item>"c Tuto 2"</item>
+        <item>"c Tuto 3"</item>
+        <item>"c Tuto 4"</item>
+        <item>"c Tuto 5"</item>
+        <item>"c Tuto 6"</item>
+    </string-array>
+    <string-array name="python_editors">
+        <item>"c Edit 1"</item>
+        <item>"c Edit 2"</item>
+        <item>"c Edit 3"</item>
+        <item>"c Edit 4"</item>
+        <item>"c Edit 5"</item>
+        <item>"c Edit 6"</item>
+    </string-array>
+    <string-array name="python_tech_news">
+        <item>"c News 1"</item>
+        <item>"c News 2"</item>
+        <item>"c News 3"</item>
+        <item>"c News 4"</item>
+        <item>"c News 5"</item>
+        <item>"c News 6"</item>
+    </string-array>
+
+    <string-array name="html_tutorials">
+        <item>"c Tuto 1"</item>
+        <item>"c Tuto 2"</item>
+        <item>"c Tuto 3"</item>
+        <item>"c Tuto 4"</item>
+        <item>"c Tuto 5"</item>
+        <item>"c Tuto 6"</item>
+    </string-array>
+    <string-array name="html_editors">
+        <item>"c Edit 1"</item>
+        <item>"c Edit 2"</item>
+        <item>"c Edit 3"</item>
+        <item>"c Edit 4"</item>
+        <item>"c Edit 5"</item>
+        <item>"c Edit 6"</item>
+    </string-array>
+    <string-array name="html_tech_news">
+        <item>"c News 1"</item>
+        <item>"c News 2"</item>
+        <item>"c News 3"</item>
+        <item>"c News 4"</item>
+        <item>"c News 5"</item>
+        <item>"c News 6"</item>
+    </string-array>
+
+    <string-array name="others_tutorials">
+        <item>"c Tuto 1"</item>
+        <item>"c Tuto 2"</item>
+        <item>"c Tuto 3"</item>
+        <item>"c Tuto 4"</item>
+        <item>"c Tuto 5"</item>
+        <item>"c Tuto 6"</item>
+    </string-array>
+    <string-array name="others_editors">
+        <item>"c Edit 1"</item>
+        <item>"c Edit 2"</item>
+        <item>"c Edit 3"</item>
+        <item>"c Edit 4"</item>
+        <item>"c Edit 5"</item>
+        <item>"c Edit 6"</item>
+    </string-array>
+    <string-array name="others_tech_news">
+        <item>"c News 1"</item>
+        <item>"c News 2"</item>
+        <item>"c News 3"</item>
+        <item>"c News 4"</item>
+        <item>"c News 5"</item>
+        <item>"c News 6"</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
